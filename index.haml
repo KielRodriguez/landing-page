@@ -1,0 +1,33 @@
+!!! 5
+%html
+	%head
+		%title Taller - Creacion Landing Page con HTML5 Y CSS3
+		%meta{:charset => "utf-8"}
+		%link{:rel => "stylesheet", :href => "https://fonts.googleapis.com/css?family=Open+Sans"}/
+		%link{:rel => "stylesheet", :href => "https://cdn.jsdelivr.net/flexboxgrid/6.3.0/flexboxgrid.min.css"}/
+		%link{:rel => "stylesheet", :href => "./app.css"}
+
+	%body
+		.workshop-background
+			.row.center-xs
+				.col-xs-12.col-sm-8.col-md-6
+					.box
+						%header.white-text.text-center
+							.inline-block
+								%img{:src => "imgs/tl.png", :height => "60"}
+								.init
+									Iniciamos en 
+								.restand-time 
+									%span 
+										01
+										%span dias
+									%span :
+									%span 
+										20
+										%span horas
+									%span :
+									%span 
+										30
+										%span minutos
+							%h1.slim.title Crea un landig page desde cero con HTML5 y CSS3
+							%a.btn{:href => ""} Tomar taller
