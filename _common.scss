@@ -1,5 +1,12 @@
+.absolute{
+	position:absolute;
+}
 .bold{
 	font-weight:bold;
+}
+
+.circle{
+	border-radius: 50%;
 }
 .inline-block{
 	display:inline-block;
@@ -13,12 +20,25 @@
 	border:none;
 }
 
+.no-padding{
+	padding: 0;
+}
+
+.no-margin{
+	margin: 0;
+}
+
 .pull-right{
 	float:right;
 }
 
 .mayuscula{
 	text-transform:uppercase;
+}
+
+.padding-50{
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .relative{
@@ -52,6 +72,9 @@
 .small{
 	font-size: 14px;
 } 
+.z-depth{
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.6), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
 
 
 
